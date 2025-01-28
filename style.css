@@ -1,0 +1,20 @@
+/* Estilos do jogo */
+body {
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    display: flex; /* Define o layout flexível para o corpo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    background-color: #87ceeb; /* Define a cor de fundo do corpo (cor do céu) */
+    height: 100vh; /* Define a altura do corpo para ocupar toda a altura da janela */
+    overflow: hidden; /* Esconde as barras de rolagem */
+}
+
+#gameContainer {
+    position: relative; /* Define a posição relativa para o contêiner do jogo */
+}
+
+canvas {
+    background-color: #32cd32; /* Define a cor de fundo do canvas (cor do campo) */
+    border: 2px solid black; /* Define uma borda preta de 2px ao redor do canvas */
+}
