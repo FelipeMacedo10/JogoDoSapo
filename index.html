@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização para se ajustar à largura da tela do dispositivo -->
+    <title>JogoDoSapo</title> <!-- Título da página -->
+    <link rel="stylesheet" href="estilo.css"> <!-- Link para o arquivo de estilos CSS -->
+</head>
+<header><h1>Jogo do sapo</h1></header> <!-- Cabeçalho da página com o título do jogo -->
+<body>
+    <div class="canvasContainer"> <!-- Contêiner para o canvas do jogo -->
+        <canvas id="jogoCanvas"></canvas> <!-- Canvas onde o jogo será desenhado -->
+        <div id="divBotoes"> <!-- Div para os botões de controle -->
+            <select id="SeletorDificuldade" title="."> <!-- Seletor de dificuldade do jogo -->
+                <option value="facil">Fácil</option> <!-- Opção Fácil -->
+                <option value="medio">Médio</option> <!-- Opção Médio -->
+                <option value="dificil">Difícil</option> <!-- Opção Difícil -->
+            </select>
+            <button id="BotaoIniciar">Iniciar Jogo</button> <!-- Botão para iniciar o jogo -->
+            <button id="BotaoReiniciar">Reiniciar Jogo</button> <!-- Botão para reiniciar o jogo -->
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link para o arquivo de script JavaScript -->
+</body>
+</html>
